@@ -2,7 +2,7 @@ public class nocount {
     
     public static void main(String[] args) {
         
-       int a=122652452;
+       int a=122565452;
        int count=0;
        int c=5;
 
@@ -17,7 +17,7 @@ public class nocount {
             a=a/10;
         }
 
-System.out.println(count);
+        System.out.println(count);
        
     }
 }
