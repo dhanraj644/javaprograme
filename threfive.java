@@ -8,7 +8,7 @@ class threfive
         {
             if(i%3==0||i%5==0)
             {
-                if(i<10)
+                if(i<num)
                 {
                     sum+=i;
                 }
