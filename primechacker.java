@@ -1,22 +1,7 @@
 public class primechacker {
     public static void main(String[] args) {
-       counter(3);
-    }
-    public static void counter(int a)
-    {
-        int count=0;
-        for(int i=0; i<400;i++)
-        {
-            if(isPrime(i))
-            {
-                count++;
-                if(count == a)
-                {
-                    System.out.println(i);
-                }
-                
-            }
-        }
+        
+        System.out.println(isPrime(9));
     }
     public static boolean isPrime(int n)
     {
